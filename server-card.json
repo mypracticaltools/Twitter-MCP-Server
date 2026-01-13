@@ -1,0 +1,15 @@
+{
+    "name": "@practicaltools/twitter-mcp-server",
+    "mcpName": "io.github.mypracticaltools/twitter-mcp-server",
+    "description": "Comprehensive Twitter (𝕏) data access via Model Context Protocol.",
+    "category": "Social Media",
+    "tags": [
+        "twitter",
+        "x",
+        "social-media",
+        "apify"
+    ],
+    "environmentVariables": [
+        "APIFY_API_TOKEN"
+    ]
+}

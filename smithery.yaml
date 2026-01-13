@@ -1,0 +1,11 @@
+# Smithery configuration for @practicaltools/twitter-mcp-server
+startCommand:
+  type: stdio
+  command: npx
+  args:
+    - -y
+    - "@practicaltools/twitter-mcp-server"
+  env:
+    APIFY_API_TOKEN:
+      description: Your Apify API Token
+      required: true

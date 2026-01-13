@@ -1,0 +1,8 @@
+.env
+dist
+node_modules
+task.md
+.mcpregistry_*_token
+server.json
+cheap-simple-twitter-api.md
+.env.example

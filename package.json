@@ -1,0 +1,37 @@
+{
+  "name": "@practicaltools/twitter-mcp-server",
+  "version": "1.0.0",
+  "description": "Twitter/X.com MCP Server via Apify",
+  "main": "dist/index.js",
+  "bin": {
+    "twitter-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "smithery.yaml",
+    "server-card.json",
+    ".well-known"
+  ],
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "mcpName": "io.github.mypracticaltools/twitter-mcp-server",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mypracticaltools/Twitter-MCP-Server.git"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "latest",
+    "apify-client": "latest",
+    "dotenv": "latest",
+    "zod": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "latest"
+  }
+}

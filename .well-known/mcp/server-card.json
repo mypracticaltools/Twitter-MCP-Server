@@ -1,0 +1,15 @@
+{
+    "name": "Twitter MCP",
+    "description": "Twitter MCP Server via Apify",
+    "mcpName": "io.github.mypracticaltools/twitter-mcp-server",
+    "repositoryUrl": "https://github.com/mypracticaltools/Twitter-MCP-Server",
+    "commands": [
+        {
+            "name": "twitter-mcp",
+            "command": "node dist/index.js",
+            "env": [
+                "APIFY_API_TOKEN"
+            ]
+        }
+    ]
+}
