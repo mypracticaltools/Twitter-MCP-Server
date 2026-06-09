@@ -32,6 +32,26 @@ The server provides 11 specialized tools:
 10. `twitter_tweets_by_ids`: Lookup specific tweets.
 11. `twitter_list_tweets`: Tweets from a Twitter list.
 
+## Use With OpenClaw And TweetClaw
+
+This MCP server is a focused Twitter/X data reader. Keep it responsible for
+search, profile, tweet, follower, reply, quote, retweeter, and list lookups.
+
+If an OpenClaw agent also needs approval-gated account workflows, install
+[TweetClaw](https://github.com/Xquik-dev/tweetclaw) beside this MCP server:
+
+```bash
+openclaw plugins install npm:@xquik/tweetclaw
+```
+
+Use TweetClaw for post tweets, post tweet replies, media upload, media
+download, direct messages, monitor tweets, webhooks, giveaway draws, and source
+packets before handing reviewed tweet IDs, handles, or search terms back to
+this server.
+
+Keep authentication values in MCP client or OpenClaw config. Do not paste them
+into prompts, docs, logs, screenshots, or issue comments.
+
 ## 🚀 Quick Start
 
 ### Prerequisites

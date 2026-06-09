@@ -1,4 +1,4 @@
-# Contributing to Reddit MCP Server
+# Contributing to Twitter MCP Server
 
 We're glad you're interested in contributing! Here's how you can help:
 
@@ -18,4 +18,4 @@ We're glad you're interested in contributing! Here's how you can help:
 
 ## Feature Requests & Bug Reports
 
-Please use the [GitHub Issues](https://github.com/mypracticaltools/Reddit-MCP-Server/issues) page to report bugs or suggest features.
+Please use the [GitHub Issues](https://github.com/mypracticaltools/Twitter-MCP-Server/issues) page to report bugs or suggest features.
