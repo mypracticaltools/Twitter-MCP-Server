@@ -8,4 +8,4 @@ We will acknowledge your report and provide a timeline for a fix.
 
 ## Supported Versions
 
-Only the latest version of the Reddit MCP Server is supported for security updates.
+Only the latest version of the Twitter MCP Server is supported for security updates.
